@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  background-color: #00864F; /*#eeeeee;*/
+  font-family: tahoma, sans-serif;
+  /*korrekt-logo-color: #860037*/
+}
+
+h3 {
+  float: right;
+  margin-right: 10px;
+  color: #800000;
+  font-family: tahoma, sans-serif;
+  margin: 30px 350px auto 0;
+}
+
+h2 {
+  color: #4C4D5F;
+}
+
+.top_container {
+  height: 120px;
+  /*background: linear-gradient(#900d0d -20%, #fafafa 90%);*/
+  margin-bottom: 0;
+}
+
+.middle_container {
+  background-color: #F5FFFA;
+  margin: 0;
+  text-align: center;
+  padding: 100px;
+  position: relative;
+  height: 300px;
+}
+
+.deutsch_div {
+  position: absolute;
+  /*margin-left: 20px;*/
+  width: 300px;
+}
+
+.english_div {
+  position: absolute;
+  margin-left: 300px;
+  width: 300px;
+}
+
+.italiano_div {
+  position: absolute;
+  margin-left: 600px;
+  width: 300px;
+}
+
+.parolemix_div {
+  position: absolute;
+  margin-left: 900px;
+  width: 300px;
+}
+
+.bottom_container {
+  text-align: center;
+}
+
+.logo {
+  /*padding-left: 50px;
+  padding-top: 30px;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+
+}
+
+.imgDeutsch {
+  border-radius: 100%;
+  opacity: 1;
+  width: 220px;
+  height: 240px;
+}
+
+.imgDeutsch:hover {
+  border-radius: 100%;
+  opacity: 0.75;
+  width: 220px;
+  height: 240px;
+}
+
+.imgEnglish {
+  border-radius: 100%;
+  width: 220px;
+  height: 240px;
+  width: 220px;
+  height: 240px;
+}
+
+.imgItaliano {
+  border-radius: 100%;
+  opacity: 100%;
+  width: 220px;
+  height: 240px;
+}
+
+.imgParolemix {
+  border-radius: 100%;
+  opacity: 100%;
+  width: 220px;
+  height: 240px;
+}
